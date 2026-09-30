@@ -1,0 +1,18 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated bundles
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local data and logs
+vaani_database.json
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
